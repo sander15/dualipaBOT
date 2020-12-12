@@ -1,0 +1,7 @@
+{
+  "dualipa": {
+    "token":"Nzc2NDUyOTk0MzcwODk1ODg1.X61GMw.m_Stwo2PWZ44TtLnX4mWndmiAGU",
+    "prefix":"dl!",
+    "cogs": ["cogs.hi", "cogs.translate", "cogs.music", "cogs.purge"]
+  }
+}
