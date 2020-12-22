@@ -6,7 +6,7 @@ import time
 import json
 import requests
 from discord.ext import *
-from serpapi import GoogleSearchResults
+# from serpapi import GoogleSearchResults
 from googlesearch import search
 from concurrent.futures import ThreadPoolExecutor
 import gtr
