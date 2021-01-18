@@ -1,3 +1,6 @@
+# This part of the code was made by Maubg.
+# Thanks Maubg! 
+
 import asyncio 
 
 import re
