@@ -1,5 +1,5 @@
 # dualipaBOT
-bot dedicated to Dua Lipa stuff! I made this bot cuz... I like Dua 😳
+bot dedicated to Dua Lipa stuff! 😳
 
   ```
   git clone https://github.com/sander15/dualipaBOT.git <- or -> download it
