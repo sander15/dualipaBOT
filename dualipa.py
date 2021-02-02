@@ -59,7 +59,7 @@ class dualipa(commands.Bot):
 
 
 INSTAGRAM_USERNAME = "dualipa"  # Example: ladygaga
-WEBHOOK_URL = "https://discord.com/api/webhooks/776814715426439198/2UxsXx_KI2TCDxzov29RLPnmHqi12xb-zCDFDIE_1wARNHNmBlraqu9HOAimaLYHIMhX"  # Url to your discord webhook
+WEBHOOK_URL = ""  # Url to your discord webhook
 DATABASE = "database.txt"
 
 
@@ -116,7 +116,7 @@ def webhook(webhook_url, html):
   embed["title"] = "New pic of @" + INSTAGRAM_USERNAME + ""
   embed["url"] = "https://www.instagram.com/p/" + get_last_publication_url(html) + "/"
   embed["description"] = get_description_photo(html)
-  embed["image"] = {"url":get_last_thumb_url(html)} # unmark to post bigger image
+  embed["image"] = {"url":get_last_thumb_url(html)} 
   embed["thumbnail"] = {"url": get_last_thumb_url(html)}
   data["embeds"].append(embed)
   result = requests.post(webhook_url, data=json.dumps(data), headers={"Content-Type": "application/json"})
