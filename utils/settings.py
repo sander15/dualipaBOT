@@ -31,7 +31,7 @@ class GlobalVars(object):
 
   @property
   def prefix(self):
-    return Funcs().getConfig('dualipa', 'prefix') #Prefijo para los comandos de PeritaBOT
+    return Funcs().getConfig('dualipa', 'prefix') #Prefijo para los comandos de DualipaBOT
 
   @property
   def cogs(self):
